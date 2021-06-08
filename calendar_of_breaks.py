@@ -18,7 +18,7 @@ print (
          round((z+t/2)//1),':',round((z+t/2)%1*60),' ',round(t//1),':',round(t%1*60),'\n'
  'sleep  ',round((z-s/60/2)//1),':',round((z-s/60/2)%1*60),'–',
          round((z+s/60/2)//1),':',round((z+s/60/2)%1*60),'  ',round(100//60),':',round(100%60),'\n' 
- 'sleep0 ',round((z-12+24-ss/2) // 1),':',round((z-12+24-ss/2)%1*60),'– ',
+ 'sleep  ',round((z-12+24-ss/2) // 1),':',round((z-12+24-ss/2)%1*60),'– ',
          round((z-12+ss/2)//1),':',round((z-12+ss/2)%1*60),'  ',round(ss//1),':',round(ss%1*60),'\n')
 
 print ('work   ', round(ta),'min   ', round(ta/60//1),':',round(ta/60%1*60),'   ', round(ta/(tb+ta)*100),'%')
