@@ -7,8 +7,6 @@ t = t81
 
 # break
 b1 = 5; b1n = 25
-
-# cycles
 bb = b1n + b1
 
 # total
