@@ -28,9 +28,9 @@ print ('every  ',b1n,'for',b1,'\n','\n')
 
 print ('Subject	Start Date	Start Time	End Date	End Time')
 
-print ('Sleep 2	',Date,'\t',round((z-s/60/2)//1),':',round((z-s/60/2)%1*60),'\t',Date,'\t',
+print ('Sleep	',Date,'\t',round((z-s/60/2)//1),':',round((z-s/60/2)%1*60),'\t',Date,'\t',
          round((z+s/60/2)//1),':',round((z+s/60/2)%1*60))
-print ('Sleep 1	',Date,'\t',round((z-12+24-ss/2) // 1),':',round((z-12+24-ss/2)%1*60),'\t','=D2+1','\t',
+print ('Sleep	',Date,'\t',round((z-12+24-ss/2) // 1),':',round((z-12+24-ss/2)%1*60),'\t','=D2+1','\t',
          round((z-12+ss/2)//1),':',round((z-12+ss/2)%1*60))
 
 
