@@ -1,8 +1,8 @@
 Date = '18/05/2021'
 z = 12.5 # zenith
 s = 100; ss = 5*s/60 # sleep cycle 90-100 minutes
-t = 8+(s/60) # labor + sleep
-t81 = 8+(s/60)+40.1/60 # labor + sleep and rounding to 8 hours
+t = 8+(s/60) # work + sleep
+t81 = 8+(s/60)+40.1/60 # work + sleep and rounding to 8 hours
 t = t81
 
 # break
