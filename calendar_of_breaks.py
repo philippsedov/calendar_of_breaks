@@ -5,15 +5,11 @@ t = 8+(s/60) # labor + sleep
 t81 = 8+(s/60)+40.1/60 # labor + sleep and rounding to 8 hours
 t = t81
 
-# short break
+# break
 b1 = 5; b1n = 25
-# long break
-b2 = 30; b2n = 60*2
 
 # cycles
-bb1 = b1n + b1
-bb2 = b2n + b2
-bb = bb1 + bb2
+bb = b1n + b1
 
 # total
 tb = ( (( z*60 - t/2*60 ) // bb) * (b1+b2) )*2
